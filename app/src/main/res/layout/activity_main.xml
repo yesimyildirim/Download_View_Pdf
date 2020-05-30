@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+
+tools:context=".MainActivity" >
+    <EditText
+        android:id="@+id/urlEt"
+        android:hint="Enter Url..."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+<Button
+    android:id="@+id/downloadUrl"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:layout_marginTop="75dp"
+    android:text="download"
+    android:onClick="download" />
+
+<Button
+    android:id="@+id/button2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentRight="true"
+
+    android:layout_marginTop="150dp"
+    android:text="view"
+    android:onClick="view" />
+
+</RelativeLayout>
